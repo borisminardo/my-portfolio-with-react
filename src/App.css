@@ -1,38 +1,81 @@
-.App {
+/*GENERAL*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+.bn {
+  filter: grayscale(100%) brightness(125%);
+}
+
+.up-sidedown {
+  transform: rotate(180deg);
+}
+
+/*TOOLTIP*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 3px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  /* Position bottom */
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*TRANSITION*/
+
+a,
+btn {
+  transition: all 300ms ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*SECTIONS*/
+section {
+  padding-top: 10vh;
+  height: 90vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.space {
+  height: 20rem;
 }
