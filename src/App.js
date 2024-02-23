@@ -4,6 +4,7 @@ import React from "react";
 import { Header, Body, Footer } from "./containers";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "react-awesome-slider/dist/styles.css";
 const App = () => {
   AOS.init();
 
