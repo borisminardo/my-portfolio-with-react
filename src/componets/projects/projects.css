@@ -1,0 +1,69 @@
+/*PROJECT SECTION*/
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(255, 255, 255);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+@media screen and (min-width: 1441px) {
+  section {
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  .section__text {
+    margin-top: 10px;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 9rem auto 2rem;
+    flex-direction: column;
+  }
+
+  .section__text {
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  section {
+    margin: 25% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+}

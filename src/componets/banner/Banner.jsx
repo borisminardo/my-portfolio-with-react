@@ -11,7 +11,7 @@ const Banner = () => {
       >
         <path
           fill="#e7e7e7"
-          fill-opacity="1"
+          fillOpacity="1"
           d="M0,96L1440,160L1440,320L0,320Z"
         ></path>
       </svg>
