@@ -7,7 +7,11 @@ const About = () => {
       <section id="about">
         <p className="section__text__p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
-        <div className="section-container">
+        <div
+          className="section-container"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="section__pic-container">
             <img
               src={require("../../assets/boris2.png")}
@@ -17,7 +21,7 @@ const About = () => {
           </div>
           <div className="about-details-container">
             <div className="about-containers">
-              <div className="details-container bounce-in-top">
+              <div className="details-container ">
                 <img
                   src={require("../../assets/experience.png")}
                   alt="Experience icon"
@@ -29,7 +33,7 @@ const About = () => {
                   Front End Development
                 </p>
               </div>
-              <div className="details-container bounce-in-top">
+              <div className="details-container ">
                 <img
                   src={require("../../assets/education.png")}
                   alt="Education icon"

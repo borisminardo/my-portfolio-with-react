@@ -6,7 +6,12 @@ const Contacts = () => {
       <section id="contact">
         <p className="section__text__p1">Get in Touch</p>
         <h1 className="title">Contat Me</h1>
-        <div className="contact-info-upper-container">
+        <div
+          className="contact-info-upper-container"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div className="contact-info-container">
             <img
               src={require("../../assets/email.png")}

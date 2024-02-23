@@ -22,7 +22,12 @@ const Experience = () => {
           <h1 className="title ">Experience</h1>{" "}
         </div>
 
-        <div className="experience-details-container">
+        <div
+          className="experience-details-container"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div className="about-containers">
             <div className="details-container">
               <h2 className="experience-sub-title bounce-in-top">
