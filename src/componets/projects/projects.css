@@ -11,6 +11,7 @@ section,
 .project-sub-title {
   font-size: 1.6rem;
 }
+
 .modal-image-container {
   display: flex;
   justify-content: center;
@@ -72,6 +73,20 @@ section,
   border-color: rgb(163, 163, 163);
 }
 
+/* Add this CSS to hide the modal opening functionality and display the title only in mobile version */
+.projects-container {
+  position: relative;
+  /* Add any other styles for the container */
+}
+
+.projects-container:hover .mobile-title {
+  display: none;
+}
+
+.mobile-title {
+  display: none;
+}
+
 @media screen and (min-width: 1441px) {
   section {
     padding-top: 10vh;
@@ -79,6 +94,18 @@ section,
 }
 
 @media screen and (max-width: 1200px) {
+  .box {
+    cursor: none;
+  }
+  .mobile-title {
+    display: block;
+  }
+  .projects-container {
+    pointer-events: none;
+  }
+  .projects-container:hover {
+    cursor: default;
+  }
   .arrow {
     display: none;
   }

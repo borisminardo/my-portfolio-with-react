@@ -77,10 +77,16 @@ const Project = () => {
               key={index}
               onClick={() => openModal(img, title, desc)}
             >
-              <div className="article-container">
+              <div className="article-container ">
                 <img src={img} alt={title} className="project-img" />
               </div>
-              <div className="btn-container">{desc}</div>
+              <h3 className="mobile-title" style={{ marginTop: "5px" }}>
+                {title}
+              </h3>{" "}
+              <div className="btn-container" style={{ marginTop: "1px" }}>
+                {desc}
+              </div>{" "}
+              <br></br>
             </div>
           );
         })}
