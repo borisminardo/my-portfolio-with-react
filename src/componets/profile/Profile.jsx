@@ -22,8 +22,8 @@ const Profile = () => {
                 <button className="btn btn-color-1">Contact Info</button>
               </a>
               <a
-                href={require("../../assets/resume.pdf")}
-                download="resume.pdf"
+                href={require("../../assets/CVBorisMMinardoIncitti.pdf")}
+                download="CVBorisMMinardoIncitti.pdf"
               >
                 <div>
                   <button className="btn btn-color-2 heartbeat">

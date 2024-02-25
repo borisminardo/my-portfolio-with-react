@@ -10,48 +10,44 @@ const Project = () => {
     {
       img: require("../../assets/enav.png"),
       title: "Edip",
-      desc: "Modals, Tables, for Enav and Technosky",
+      desc: "Modals, Tables",
     },
     {
       img: require("../../assets/Gestione.png"),
       title: "Edip",
-      desc: "Sections, Forms, Tables for Enav and Technosky",
+      desc: "Sections, Forms, Tables",
     },
 
     {
       img: require("../../assets/accord.png"),
       title: "Edip",
-      desc: "Tables, Action, Accordion for Enav and Technosky",
+      desc: "Tables, Action, Accordion",
     },
     {
       img: require("../../assets/det.png"),
       title: "Edip",
-      desc: "Sections, Details, for Travel Enav ",
+      desc: "Sections, Details",
     },
-    {
-      img: require("../../assets/timecard.png"),
-      title: "Edip",
-      desc: "Sections, Timecards, for Travel Enav and Technosky",
-    },
+
     {
       img: require("../../assets/report.png"),
       title: "Edip",
-      desc: "Sections, Reports, for Travel Enav and Technosky",
+      desc: "Sections, Reports",
     },
     {
       img: require("../../assets/dgs.png"),
       title: "Ingest",
-      desc: "Sections, Tables for DGS",
+      desc: "Sections, Tables",
     },
     {
       img: require("../../assets/tables.png"),
       title: "Ingest",
-      desc: "Tables, Actions for DGS",
+      desc: "Tables, Actions",
     },
     {
       img: require("../../assets/accordion.png"),
       title: "Ingest",
-      desc: "Sections, Accordion, Details for DGS",
+      desc: "Sections, Accordion, Details",
     },
 
     {
@@ -80,9 +76,6 @@ const Project = () => {
               <div className="article-container ">
                 <img src={img} alt={title} className="project-img" />
               </div>
-              <h3 className="mobile-title" style={{ marginTop: "5px" }}>
-                {title}
-              </h3>{" "}
               <div className="btn-container" style={{ marginTop: "1px" }}>
                 {desc}
               </div>{" "}
@@ -129,7 +122,7 @@ const Project = () => {
                 marginBottom: "10px",
               }}
             />
-            <h3>{selectedImage.title}</h3> <p>{selectedImage.desc}</p>
+            <p>{selectedImage.desc}</p>
           </div>
         )}
       </Modal>
