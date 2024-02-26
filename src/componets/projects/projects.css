@@ -73,7 +73,6 @@ section,
   border-color: rgb(163, 163, 163);
 }
 
-/* Add this CSS to hide the modal opening functionality and display the title only in mobile version */
 .projects-container {
   position: relative;
   /* Add any other styles for the container */
