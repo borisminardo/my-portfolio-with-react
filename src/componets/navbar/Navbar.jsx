@@ -21,7 +21,7 @@ const Navbar = () => {
               <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="#projects">Project</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#contacts">Contacts</a>
@@ -40,24 +40,16 @@ const Navbar = () => {
           </div>
           <div className="menu-links">
             <li>
-              <a href="#about" onClick={toggleMenu}>
-                About
-              </a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a href="#experience" onClick={toggleMenu}>
-                Experience
-              </a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="#projects" onClick={toggleMenu}>
-                Project
-              </a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contacts" onClick={toggleMenu}>
-                Contacts
-              </a>
+              <a href="#contacts">Contacts</a>
             </li>
           </div>
         </div>

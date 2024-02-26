@@ -23,7 +23,7 @@ const About = () => {
             <div className="about-containers">
               <div className="details-container ">
                 <img
-                  src={require("../../assets/experience.png")}
+                  src={require("../../assets/icons/experience.png")}
                   alt="Experience icon"
                   className="icon"
                 />
@@ -35,7 +35,7 @@ const About = () => {
               </div>
               <div className="details-container ">
                 <img
-                  src={require("../../assets/education.png")}
+                  src={require("../../assets/icons/education.png")}
                   alt="Education icon"
                   className="icon"
                 />
@@ -58,7 +58,7 @@ const About = () => {
         </div>
         <a href="#experience">
           <img
-            src={require("../../assets/arrow.png")}
+            src={require("../../assets/icons/arrow.png")}
             alt="Arrow icon"
             className="icon arrow"
           />{" "}

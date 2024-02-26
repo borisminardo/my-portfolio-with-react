@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <a href="#contacts">
           <img
-            src={require("../../assets/arrow.png")}
+            src={require("../../assets/icons/arrow.png")}
             alt="Arrow icon"
             className="icon arrow"
           />

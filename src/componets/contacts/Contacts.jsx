@@ -14,7 +14,7 @@ const Contacts = () => {
         >
           <div className="contact-info-container">
             <img
-              src={require("../../assets/email.png")}
+              src={require("../../assets/icons/email.png")}
               alt="Email icon"
               className="icon contact-icon email-icon"
             />
@@ -27,7 +27,7 @@ const Contacts = () => {
 
           <div className="contact-info-container">
             <img
-              src={require("../../assets/linkedin.png")}
+              src={require("../../assets/icons/linkedin.png")}
               alt="Linkedin icon"
               className="icon contact-icon"
             />

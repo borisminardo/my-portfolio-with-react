@@ -36,7 +36,7 @@ const Profile = () => {
               <div>
                 <a href="https://www.linkedin.com/in/boris-maria-minardo-incitti-2b42a0160/">
                   <img
-                    src={require("../../assets/linkedin.png")}
+                    src={require("../../assets/icons/linkedin.png")}
                     alt="My Linkedin"
                     className="icon"
                   />
@@ -45,7 +45,7 @@ const Profile = () => {
               <div>
                 <a href="https://github.com/borisminardo">
                   <img
-                    src={require("../../assets/github.png")}
+                    src={require("../../assets/icons/github.png")}
                     alt="My Github"
                     className="icon"
                   />

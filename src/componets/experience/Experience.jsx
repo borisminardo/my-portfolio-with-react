@@ -37,7 +37,7 @@ const Experience = () => {
                 {experiences.map((el) => (
                   <article key={el.title} className="puff-in-center">
                     <img
-                      src={require("../../assets/checkmark.png")}
+                      src={require("../../assets/icons/checkmark.png")}
                       alt="experience icon"
                       className="icon"
                     />
@@ -53,7 +53,7 @@ const Experience = () => {
         </div>
         <a href="#projects">
           <img
-            src={require("../../assets/arrow.png")}
+            src={require("../../assets/icons/arrow.png")}
             alt="Arrow icon"
             className="icon arrow"
           />

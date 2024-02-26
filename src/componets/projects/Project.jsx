@@ -1,57 +1,58 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import AwesomeSlider from "react-awesome-slider";
-import withAutoplay from "react-awesome-slider/dist/autoplay";
-import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 const Project = () => {
-  const AutoplaySlider = withAutoplay(AwesomeSlider);
   const [selectedImage, setSelectedImage] = useState(null);
   const projects = [
     {
-      img: require("../../assets/enav.png"),
+      img: require("../../assets/projectsImages/timecard.png"),
       title: "Edip",
-      desc: "Modals, Tables",
+      desc: "Timecard, Tables",
     },
     {
-      img: require("../../assets/Gestione.png"),
+      img: require("../../assets/projectsImages/Gestione.png"),
       title: "Edip",
       desc: "Sections, Forms, Tables",
     },
 
     {
-      img: require("../../assets/accord.png"),
+      img: require("../../assets/projectsImages/accord.png"),
       title: "Edip",
       desc: "Tables, Action, Accordion",
     },
     {
-      img: require("../../assets/det.png"),
+      img: require("../../assets/projectsImages/det.png"),
       title: "Edip",
       desc: "Sections, Details",
     },
 
     {
-      img: require("../../assets/report.png"),
+      img: require("../../assets/projectsImages/report.png"),
       title: "Edip",
-      desc: "Sections, Reports",
+      desc: "Form, Reports",
     },
     {
-      img: require("../../assets/dgs.png"),
+      img: require("../../assets/projectsImages/reportTable.png"),
+      title: "Edip",
+      desc: "Table, Reports",
+    },
+    {
+      img: require("../../assets/projectsImages/dgs.png"),
       title: "Ingest",
       desc: "Sections, Tables",
     },
     {
-      img: require("../../assets/tables.png"),
+      img: require("../../assets/projectsImages/tables.png"),
       title: "Ingest",
       desc: "Tables, Actions",
     },
     {
-      img: require("../../assets/accordion.png"),
+      img: require("../../assets/projectsImages/accordion.png"),
       title: "Ingest",
       desc: "Sections, Accordion, Details",
     },
 
     {
-      img: require("../../assets/luminance.png"),
+      img: require("../../assets/projectsImages/luminance.png"),
       title: "Luminance I-Forge",
       desc: "Personal project for I-Forge",
     },
@@ -70,7 +71,7 @@ const Project = () => {
           return (
             <div
               className="projects-container color-container"
-              key={index}
+              key={img}
               onClick={() => openModal(img, title, desc)}
             >
               <div className="article-container ">
