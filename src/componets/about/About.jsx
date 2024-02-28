@@ -1,9 +1,11 @@
 import React from "react";
 import "./about.css";
 import "./animations.css";
+import { Banner } from "../../componets";
 const About = () => {
   return (
     <>
+      <Banner />
       <section id="about">
         <p className="section__text__p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
@@ -29,7 +31,7 @@ const About = () => {
                 />
                 <h3>Experience</h3>
                 <p>
-                  3+ years <br />
+                  3/4 years <br />
                   Front End Development
                 </p>
               </div>

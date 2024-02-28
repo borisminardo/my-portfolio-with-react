@@ -11,7 +11,7 @@ const Body = () => {
   return (
     <div>
       <Profile />
-      <Banner />
+
       <About />
       <Experience />
       <Banner />

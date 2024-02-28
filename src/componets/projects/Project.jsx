@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import "./project.css";
 const Project = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const projects = [
@@ -74,12 +75,12 @@ const Project = () => {
         {projects.map(({ img, title, desc, index }) => {
           return (
             <div
-              className="projects-container color-container"
+              className="projects-container color-container  "
               key={img}
               onClick={() => openModal(img, title, desc)}
             >
-              <div className="article-container ">
-                <img src={img} alt={title} className="project-img" />
+              <div className="article-container  ">
+                <img src={img} alt={title} className="project-img hover-box" />
               </div>
               <div className="btn-container" style={{ marginTop: "1px" }}>
                 {desc}
