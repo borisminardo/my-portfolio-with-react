@@ -50,7 +50,11 @@ const Project = () => {
       title: "Ingest",
       desc: "Sections, Accordion, Details",
     },
-
+    {
+      img: require("../../assets/projectsImages/ecommerce.png"),
+      title: "Personal E-commerce",
+      desc: "E-commerce, Product list, Cart",
+    },
     {
       img: require("../../assets/projectsImages/luminance.png"),
       title: "Luminance I-Forge",

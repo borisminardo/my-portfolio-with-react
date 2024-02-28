@@ -51,13 +51,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <a href="#projects">
-          <img
-            src={require("../../assets/icons/arrow.png")}
-            alt="Arrow icon"
-            className="icon arrow"
-          />
-        </a>
       </section>
     </>
   );
