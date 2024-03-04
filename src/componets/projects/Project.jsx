@@ -52,6 +52,12 @@ const Project = () => {
       desc: "Sections, Accordion, Details",
     },
     {
+      img: require("../../assets/projectsImages/faiLaSpesa.png"),
+      title: "Personal Shopping List Adder",
+      desc: "Shopping List Adder, Actions, Product list",
+    },
+
+    {
       img: require("../../assets/projectsImages/ecommerce.png"),
       title: "Personal E-commerce",
       desc: "E-commerce, Product list, Cart",
