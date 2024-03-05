@@ -25,12 +25,6 @@ const Project = () => {
       title: "Edip",
       desc: "Sections, Details",
     },
-
-    {
-      img: require("../../assets/projectsImages/report.png"),
-      title: "Edip",
-      desc: "Form, Reports",
-    },
     {
       img: require("../../assets/projectsImages/reportTable.png"),
       title: "Edip",
@@ -66,6 +60,11 @@ const Project = () => {
       img: require("../../assets/projectsImages/luminance.png"),
       title: "Luminance I-Forge",
       desc: "Personal project for I-Forge",
+    },
+    {
+      img: require("../../assets/projectsImages/portfolio.png"),
+      title: "My Portfolio",
+      desc: "My Portfolio built with React",
     },
   ];
   const openModal = (img, title, desc) => {
