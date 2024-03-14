@@ -53,7 +53,8 @@ const About = () => {
                 I have been focusing on developing Front End applications using
                 Angular and React for big companies in Rome, Italy since 2020,
                 helping them to create new features, aswell as editing existing
-                ones, fixing bugs and testing. Feel free to contact me.
+                ones, fixing bugs and testing. My focus is to meet the client
+                needs and deliver a clean, solid UI and reusable code.
               </p>
             </div>
           </div>

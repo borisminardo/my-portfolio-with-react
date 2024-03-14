@@ -50,6 +50,14 @@ const Experience = () => {
               </div>
             </div>
           </div>
+          <div>
+            <p>
+              This is what I use to build front end projects. I can transition
+              from Angular to React, connect with the back end through REST API,
+              keep the repository organized and updated with Git, create and
+              update documentation, run tests, and last but not least, fix bugs.
+            </p>
+          </div>
         </div>
       </section>
     </>
